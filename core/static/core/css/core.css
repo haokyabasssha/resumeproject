@@ -1,0 +1,40 @@
+html,body {
+    height: 100%;
+}
+
+.container-fluid{
+    min-height: 100%;
+}
+
+
+a.nav-link {
+    color: white;
+}
+
+a.nav-link:hover {
+    color: black;
+    background-color: #e9cd79;
+}
+
+a.nav-link.active {
+    color: black;
+    background-color:#ffc107;
+    font-weight: bold;
+}
+
+.gmail {
+    border-style: solid;
+    border-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-color: white;
+}
+
+.insta {
+    border-style: solid;
+    border-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-color: white;
+}
+

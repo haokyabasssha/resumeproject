@@ -1,0 +1,26 @@
+{% extends 'core/base.html' %}
+{% load static %}
+{% block content %}
+<div class="mt-5">
+    <div class="myimg text-center">
+        <img src="{% static 'core/images/img2.jpg' %}" alt="Profile picture"
+    class="img-thumbnail" width="250px" height="150px">
+    </div>
+    <div class="mx-5 text-justify">
+        <h1 class="font-weight-bold text-white mt-5">Hello,</h1>
+        <div class="text-white px-4" style="line-height: 2rem;">
+            <p style="text-indent:100px;">
+                I have done 3 months training course in Core Python. I am looking for an exciting and learning career as
+                python developer. I am a quick learner and handworker. I always like to chase the challenges and solve
+                them. Currently I am learning web development using <b class="text-warning">python,django,HTML,CSS</b> and also seeking knowledge about
+                frontend web development technology. I have good OOPs knowledge. I am ready to join as trainee to
+                learn and contribute to the best of my abilities.
+            </p>
+        </div>
+    </div>
+    <div class="text-center">
+        <a href="{% url 'resume' %}" class="btn btn-outline-warning my-3 mr-5 my">my resume</a>
+        <a href="{% url 'contact' %}" class="btn btn-outline-info my">Contact</a>
+    </div>
+</div>
+{% endblock content %}

@@ -1,0 +1,13 @@
+{% extends 'core/base.html' %}
+{% load static %}
+{% block content%} 
+<div class="mt-5">
+    <p class="mx-auto mb-5 ">
+        <h2 class="text-white border-bottom border-warning">This is the project.</h2>
+    </p>
+    <div class="myimg text-center">
+        <img src="{% static 'core/images/dance.jpg' %}" alt="dance"
+        class="img-thumbnail fa-5x" height="700" width="900">
+    </div>
+</div>
+{% endblock content%}
